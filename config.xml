@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.spionicapp973455" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>spIonicApp</name>
+  <description>
+        An Ionic Framework and Cordova project.
+    </description>
+  <author email="hi@ionicframework" href="http://ionicframework.com/">
+      Ionic Framework Team
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="SplashScreen" value="screen" />
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+  <platform name="android">
+    <icon src="res/icons/android/icon-36-ldpi.png" density="ldpi" />
+    <icon src="res/icons/android/icon-48-mdpi.png" density="mdpi" />
+    <icon src="res/icons/android/icon-72-hdpi.png" density="hdpi" />
+    <icon src="res/icons/android/icon-96-xhdpi.png" density="xhdpi" />
+    <splash src="res/screens/android/screen-hdpi-landscape.png" density="land-hdpi"/>
+    <splash src="res/screens/android/screen-ldpi-landscape.png" density="land-ldpi"/>
+    <splash src="res/screens/android/screen-mdpi-landscape.png" density="land-mdpi"/>
+    <splash src="res/screens/android/screen-xhdpi-landscape.png" density="land-xhdpi"/>
+
+    <splash src="res/screens/android/screen-hdpi-portrait.png" density="port-hdpi"/>
+    <splash src="res/screens/android/screen-ldpi-portrait.png" density="port-ldpi"/>
+    <splash src="res/screens/android/screen-mdpi-portrait.png" density="port-mdpi"/>
+    <splash src="res/screens/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>  
+  </platform>
+
+</widget>
